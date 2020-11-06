@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <int name="TCPPort">9999</int>
+    <int name="UpdatesPerSecond">60</int>
+    <int name="OrbitPlanSkipRate">0</int>
+</config>

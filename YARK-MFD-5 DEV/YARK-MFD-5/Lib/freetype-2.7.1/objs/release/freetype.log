@@ -1,0 +1,62 @@
+﻿  autofit.c
+  ftbase.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftrfork.c(896,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftrfork.c(897,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftrfork.c(884,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ftbbox.c
+  ftbitmap.c
+  ftfntfmt.c
+  ftfstype.c
+  ftgasp.c
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftinit.c(270,11): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ftlcdfil.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  ftsystem.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftsystem.c(240,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fttype1.c
+  ftwinfnt.c
+  Generating Code...
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftobjs.c(4883): warning C4702: unreachable code
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\base\ftobjs.c(4884): warning C4702: unreachable code
+  Compiling...
+  bdf.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\bdf\bdflib.c(1793,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\bdf\bdflib.c(1806,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\bdf\bdflib.c(2135,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\bdf\bdflib.c(2143,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ftcache.c
+  cff.c
+  type1cid.c
+  ftgzip.c
+  ftlzw.c
+  pcf.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\pcf\pcfread.c(1311,20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\pcf\pcfread.c(1312,20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\pcf\pcfread.c(1313,20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\pcf\pcfread.c(1320,20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\pcf\pcfread.c(1324,20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pfr.c
+  psaux.c
+  pshinter.c
+  psmodule.c
+  raster.c
+  sfnt.c
+D:\@John\YARKDEV\ft271\freetype-2.7.1\src\sfnt\ttsbit.c(1452,49): warning C4100: 'metrics_only': unreferenced formal parameter
+  smooth.c
+  truetype.c
+  type1.c
+  type42.c
+  winfnt.c
+  Generating Code...
+  ftdebug.c
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1498,5): warning MSB8012: TargetPath(D:\@John\YARKDEV\ft271\freetype-2.7.1\builds\windows\visualc\.\..\..\..\objs\release\freetype.lib) does not match the Library's OutputFile property value (D:\@John\YARKDEV\ft271\freetype-2.7.1\objs\freetype271.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1500,5): warning MSB8012: TargetName(freetype) does not match the Library's OutputFile property value (freetype271). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  freetype.vcxproj -> D:\@John\YARKDEV\ft271\freetype-2.7.1\builds\windows\visualc\.\..\..\..\objs\release\freetype.lib
