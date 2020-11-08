@@ -42,13 +42,12 @@ void SevenSegment::Draw(XY pos, XY size)
 	draw->DrawRect2D(pos.x, pos.y, pos.x + size.x, pos.y + size.y);
 
 	OrbitData* o = &client.Vessel.CurrentOrbit;
-	//char buff[64];
-	//int sy = pos.y + 15;
-	float apoapsis = o->AP; //in meters
+
+	float apoapsis = o->AP;			//in meters
 	float periapsis = o->PE / 1000; //in meter convert to km to match game
 
-	char buff[64];
-	sprintf_s(buff, "%.3f", periapsis);
+	//char buff[64];
+	//sprintf_s(buff, "%.3f", periapsis);
 
 	lastPos = XY{ 16, 32 };
 
@@ -58,7 +57,6 @@ void SevenSegment::Draw(XY pos, XY size)
 	FloatPM(pos, "APOAPSIS", &apoapsis, 8, true, yellow, 4); //XYPos, label, FigureToDisplay,grad,iNumDigits,bSigned, LEDColour, iNumDecPlaces
 	lastPos.y += 200;
 	FloatPM(pos, "PERIAPSIS", &periapsis, 8, true, green, 3); //XYPos, label, FigureToDisplay,grad,iNumDigits,bSigned, LEDColour, iNumDecPlaces
-
 
 //	printf("set: %d\n", client.Control.ControlerMode);
 
